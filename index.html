@@ -3,8 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Jacoby Design</title>
-  <link rel="icon" type="image/x-icon" href="Jacoby DesignIcon.png">
+  <title>Alyssa Jacoby | Graphic Designer</title>
+  <meta name="description" content="Alyssa Jacoby is a Pittsburgh graphic designer graduating from the University of Pittsburgh in December 2026 and looking for sports design internships. See logos, social campaigns, brand systems, and layouts.">
+  <meta property="og:title" content="Alyssa Jacoby | Graphic Designer">
+  <meta property="og:description" content="Logos, social campaigns, brand systems, and layouts. Looking for sports design internships starting January 2027.">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/x-icon" href="JacobyDesignIcon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap" rel="stylesheet">
@@ -17,10 +21,12 @@
     <a href="#top" class="logo">
       <img src="JacobyDesignLogoWhite.png" alt="Jacoby Design logo">
     </a>
-    <nav>
+    <nav aria-label="Main">
       <a href="#about">About</a>
-      <a href="#work">Work</a>
-      <a href="#classwork">Classwork</a>
+      <a href="#sports">Sports</a>
+      <a href="#brand">Brand</a>
+      <a href="#ux">UX</a>
+      <a href="Alyssa_Jacoby_Resume.pdf" target="_blank" rel="noopener">Resume</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
@@ -32,62 +38,78 @@
       <img class="headshot" src="Headshot.JPG" alt="Photo of a smiling woman with blonde hair, brown eyes, and a black shirt.">
       <div class="about-text">
         <h1>Hi, I'm Alyssa Jacoby.</h1>
-        <p>I'm a current University of Pittsburgh senior and graphic designer with experience in Adobe Photoshop, Illustrator, InDesign, and After Effects.</p>
+        <p class="lead">I'm a graphic designer finishing my degree at the University of Pittsburgh in December 2026, and I'm looking for a graphic design internship starting in January.</p>
+        <p>This summer I designed three social campaigns at Blender Inc., and I created the 25th anniversary logo for the Pittsburgh Sports League. I work in Photoshop, Illustrator, InDesign, After Effects, Figma, and Canva.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#sports">See my work</a>
+          <a class="btn" href="Alyssa_Jacoby_Resume.pdf" target="_blank" rel="noopener">Download resume</a>
+          <a class="btn" href="mailto:ajacoby1118@gmail.com">Email me</a>
+        </div>
       </div>
     </section>
 
-    <!-- INTERNSHIP + PERSONAL WORK -->
-    <section id="work" class="section">
-      <h2>Internship &amp; Personal Work</h2>
+    <!-- SPORTS DESIGN -->
+    <section id="sports" class="section">
+      <h2>Sports design</h2>
       <div class="grid grid-2">
-
-        <a class="card c-coral" href="#project-internship">
-          <img src="blenderlogo.png" alt="Blender Inc. logo">
-          <span class="card-title">Blender Inc. Internship</span>
-        </a>
 
         <a class="card c-blue" href="#project-personal">
           <img src="PSL 25 Anv Logo Black.png" alt="Pittsburgh Sports League 25th anniversary logo">
-          <span class="card-title">Pittsburgh Sports League</span>
+          <span class="card-title">Pittsburgh Sports League 25th Anniversary Logo<span class="card-sub">Paid client work. The logo was printed on league shirts.</span></span>
         </a>
+        <a class="card c-coral" href="#class-3">
+          <img src="Pitt Deck01.jpg" alt="Pitt Football design deck thumbnail">
+          <span class="card-title">Pitt Football Design Deck<span class="card-sub">Class project: season art direction and style guide.</span></span>
+        </a>
+        <a class="card c-yellow" href="#class-2">
+          <img src="Pitt Social Media Post.png" alt="Pitt Basketball social media post thumbnail">
+          <span class="card-title">Pitt Basketball Social Media Post<span class="card-sub">Class project: halftone promo graphic.</span></span>
+        </a>
+        <a class="card c-teal" href="#class-1">
+          <img src="Bills 1.png" alt="Buffalo Bills magazine spread thumbnail">
+          <span class="card-title">Buffalo Bills Magazine Spread<span class="card-sub">Class project: multi-page editorial layout.</span></span>
+        </a>
+
+        <!-- COMING SOON: add new sports pieces (gameday graphics, score cards, schedule releases,
+             player spotlights, templates) here. Copy a card above, point its href at a new modal
+             id, and put it FIRST so it's the first thing people see. -->
 
       </div>
     </section>
 
-    <!-- CLASSWORK -->
-    <section id="classwork" class="section">
-      <h2>Classwork</h2>
-      <div class="grid grid-4">
+    <!-- BRAND & AGENCY WORK -->
+    <section id="brand" class="section">
+      <h2>Brand and agency work</h2>
+      <div class="grid grid-3">
 
-        <a class="card c-teal" href="#class-1">
-          <img src="Bills 1.png" alt="Buffalo Bills magazine spread thumbnail">
-          <span class="card-title">Buffalo Bills Magazine Spread</span>
-        </a>
-        <a class="card c-yellow" href="#class-2">
-          <img src="Pitt Social Media Post.png" alt="Pitt Basketball social media post thumbnail">
-          <span class="card-title">Pitt Basketball Social Media Post</span>
-        </a>
-        <a class="card c-coral" href="#class-3">
-          <img src="Pitt Deck01.jpg" alt="Pitt Football design deck thumbnail">
-          <span class="card-title">Pitt Football Design Deck</span>
-        </a>
-        <a class="card c-blue" href="#class-4">
-          <img src="AFV1.png" alt="AFV Travel Agency website thumbnail">
-          <span class="card-title">AFV Travel Agency Website</span>
-        </a>
-        <a class="card c-teal" href="#class-5">
-          <img src="PPThumb.png" alt="Pitt Plugged music app thumbnail">
-          <span class="card-title">Pitt Plugged: A Campus-Based Music App</span>
-        </a>
-        <a class="card c-yellow" href="#class-6">
-          <img src="PittPunkPost.png" alt="The Oakland Underground Battle of the Bands thumbnail">
-          <span class="card-title">The Oakland Underground Battle of the Bands</span>
+        <a class="card c-coral" href="#project-internship">
+          <img src="blenderlogo.png" alt="Blender Inc. logo">
+          <span class="card-title">Blender Inc. Internship<span class="card-sub">Three social campaigns, a story video, and a client template.</span></span>
         </a>
         <a class="card c-coral" href="#class-7">
           <img src="Mr.P Green.png" alt="Mr. Pickleball thumbnail">
-          <span class="card-title">Capstone Project: Mr. Pickleball</span>
+          <span class="card-title">Capstone: Mr. Pickleball<span class="card-sub">A full brand identity and packaging, built from scratch.</span></span>
         </a>
+        <a class="card c-yellow" href="#class-6">
+          <img src="PittPunkPost.png" alt="The Oakland Underground Battle of the Bands thumbnail">
+          <span class="card-title">The Oakland Underground Battle of the Bands<span class="card-sub">Class project: poster, social post, and pitch for a campus event.</span></span>
+        </a>
+      </div>
+    </section>
 
+    <!-- UX & DIGITAL -->
+    <section id="ux" class="section">
+      <h2>UX and digital</h2>
+      <div class="grid grid-2">
+
+        <a class="card c-teal" href="#class-5">
+          <img src="PPThumb.png" alt="Pitt Plugged music app thumbnail">
+          <span class="card-title">Pitt Plugged: A Campus-Based Music App<span class="card-sub">Group project: app design, user testing, and project management.</span></span>
+        </a>
+        <a class="card c-blue" href="#class-4">
+          <img src="AFV1.png" alt="AFV Travel Agency website thumbnail">
+          <span class="card-title">AFV Travel Agency Website<span class="card-sub">Group project: I built the database behind the site.</span></span>
+        </a>
       </div>
     </section>
 
@@ -96,13 +118,15 @@
   <!-- FOOTER / CONTACT -->
   <footer id="contact" class="site-footer">
     <h2>Get in touch</h2>
+    <p class="footer-lead">I graduate in December 2026 and I'm available for internships starting in January 2027.</p>
     <p><a href="mailto:ajacoby1118@gmail.com">ajacoby1118@gmail.com</a></p>
     <p>(412) 694-6981</p>
     <p>
-  <a href="https://www.linkedin.com/in/alyssajacoby/">LinkedIn</a> |
-  <a href="https://app.joinhandshake.com/profiles/n8m8ud">Handshake</a> |
-  <a href="https://www.teamworkonline.com/business_cards/f2cfbeacdad5f1b8">Teamwork Online</a>
-</p>
+      <a href="Alyssa_Jacoby_Resume.pdf" target="_blank" rel="noopener">Resume</a> |
+      <a href="https://www.linkedin.com/in/alyssajacoby/">LinkedIn</a> |
+      <a href="https://app.joinhandshake.com/profiles/n8m8ud">Handshake</a> |
+      <a href="https://www.teamworkonline.com/business_cards/f2cfbeacdad5f1b8">Teamwork Online</a>
+    </p>
   </footer>
 
 
@@ -110,11 +134,16 @@
 
   <!-- INTERNSHIP -->
   <div class="modal" id="project-internship">
-    <a class="backdrop" href="#work" aria-label="Close"></a>
+    <a class="backdrop" href="#brand" aria-label="Close"></a>
     <article class="modal-box">
-      <a class="close" href="#work" aria-label="Close">&times;</a>
+      <a class="close" href="#brand" aria-label="Close">&times;</a>
 
       <h3>Blender Inc. Summer Internship 2026</h3>
+      <dl class="meta">
+        <dt>Role</dt><dd>Graphic design intern, June to August 2026</dd>
+        <dt>Tools</dt><dd>Canva, InDesign, Illustrator, After Effects</dd>
+        <dt>Clients</dt><dd>Get the Lead Out Pittsburgh, Staunton Farm Foundation, Blender Inc.</dd>
+      </dl>
       <p>My 2026 summer internship was with the marketing agency Blender Inc.</p>
       <p>Over the course of my internship I created three social media series of three posts each: two for their clients and one for Blender Inc. itself.</p>
 
@@ -231,14 +260,18 @@
 
   <!-- PERSONAL PROJECT -->
   <div class="modal" id="project-personal">
-    <a class="backdrop" href="#work" aria-label="Close"></a>
+    <a class="backdrop" href="#sports" aria-label="Close"></a>
     <article class="modal-box">
-      <a class="close" href="#work" aria-label="Close">&times;</a>
+      <a class="close" href="#sports" aria-label="Close">&times;</a>
       <h3>Pittsburgh Sports League 25th Anniversary Logo</h3>
+      <dl class="meta">
+        <dt>Role</dt><dd>Freelance graphic designer, paid commission</dd>
+        <dt>Tools</dt><dd>Photoshop</dd>
+        <dt>Result</dt><dd>Logo printed on league shirts; merchandise in progress</dd>
+      </dl>
       <p>For their 25th anniversary season, the Pittsburgh Sports League reached out to me to design a new 25th anniversary logo for them.</p>
       <p>This process involved looking at their old logos and coming up with a new design that highlighted Pittsburgh and PSL at the same time. Multiple mockups were made and sent to the client, who chose between a few and asked for revisions. Eventually, the final design was chosen and printed onto shirts for their sports leagues to wear on game nights.</p>
       <p>I am also currently working with PSL to design merchandise.</p>
-      <p>This project used Adobe Photoshop as its main design application.</p>
 
       <div class="gallery gallery-fill">
         <input type="radio" name="gallery-psl" id="psl-1" checked aria-label="Image 1">
@@ -261,9 +294,9 @@
           <label for="psl-1"><img src="PSL 25 Anv Logo Final.png" alt=""></label>
           <label for="psl-2"><img src="Mock Up 1.png" alt=""></label>
           <label for="psl-3"><img src="Mock Up 2.png" alt=""></label>
-          <label for="psl-5"><img src="Mock Up 4.png" alt=""></label>
-          <label for="psl-6"><img src="Mock Up 5.png" alt=""></label>
-          <label for="psl-7"><img src="Unused PSL.png" alt=""></label>
+          <label for="psl-4"><img src="Mock Up 4.png" alt=""></label>
+          <label for="psl-5"><img src="Mock Up 5.png" alt=""></label>
+          <label for="psl-6"><img src="Unused PSL.png" alt=""></label>
         </div>
       </div>
     </article>
@@ -271,13 +304,17 @@
 
   <!-- CLASS 1 -->
   <div class="modal" id="class-1">
-    <a class="backdrop" href="#classwork" aria-label="Close"></a>
+    <a class="backdrop" href="#sports" aria-label="Close"></a>
     <article class="modal-box">
-      <a class="close" href="#classwork" aria-label="Close">&times;</a>
+      <a class="close" href="#sports" aria-label="Close">&times;</a>
       <h3>Buffalo Bills Magazine Spread</h3>
+      <dl class="meta">
+        <dt>Course</dt><dd>Integrating Writing and Design, University of Pittsburgh</dd>
+        <dt>Role</dt><dd>Designer</dd>
+        <dt>Tools</dt><dd>InDesign</dd>
+      </dl>
       <p>In my Integrating Writing and Design class at the University of Pittsburgh, we were tasked with creating a magazine spread focusing on hierarchy, word placement, and multi-page layouts.</p>
       <p>I chose to create a Buffalo Bills-inspired magazine spread for this project. My goals were to highlight the use of Bills-themed colors and imagery while creating a visually interesting page spread.</p>
-      <p>This project used Adobe InDesign as its main design application.</p>
       <img src="Bills 1.png" alt="Buffalo Bills magazine spread, page 1">
       <img src="Bills 2.png" alt="Buffalo Bills magazine spread, page 2">
     </article>
@@ -285,26 +322,34 @@
 
   <!-- CLASS 2 -->
   <div class="modal" id="class-2">
-    <a class="backdrop" href="#classwork" aria-label="Close"></a>
+    <a class="backdrop" href="#sports" aria-label="Close"></a>
     <article class="modal-box">
-      <a class="close" href="#classwork" aria-label="Close">&times;</a>
+      <a class="close" href="#sports" aria-label="Close">&times;</a>
       <h3>Pitt Basketball Social Media Post</h3>
+      <dl class="meta">
+        <dt>Course</dt><dd>Integrating Writing and Design, University of Pittsburgh</dd>
+        <dt>Role</dt><dd>Designer</dd>
+        <dt>Tools</dt><dd>InDesign</dd>
+      </dl>
       <p>In my Integrating Writing and Design class at the University of Pittsburgh, we were tasked with creating a social media post focusing on a Pitt event or club to emphasize the use of color.</p>
       <p>For this assignment I chose to create a promotional post for the men’s Pitt Basketball team. To illustrate color usage, I went with a halftone appearance, focusing on making certain sections of the layout pop with different colors and shades.</p>
-      <p>This project used Adobe InDesign as its main design application.</p>
       <img src="Pitt Social Media Post.png" alt="Pitt Basketball social media post">
     </article>
   </div>
 
   <!-- CLASS 3 -->
   <div class="modal" id="class-3">
-    <a class="backdrop" href="#classwork" aria-label="Close"></a>
+    <a class="backdrop" href="#sports" aria-label="Close"></a>
     <article class="modal-box">
-      <a class="close" href="#classwork" aria-label="Close">&times;</a>
+      <a class="close" href="#sports" aria-label="Close">&times;</a>
       <h3>Pitt Football Design Deck</h3>
+      <dl class="meta">
+        <dt>Course</dt><dd>Integrating Writing and Design, University of Pittsburgh</dd>
+        <dt>Role</dt><dd>Designer</dd>
+        <dt>Tools</dt><dd>InDesign</dd>
+      </dl>
       <p>For my final project in my Integrating Writing and Design class at the University of Pittsburgh, I chose to create a pitch deck for the Pitt Football team breaking down a new visual theme which I called “Breakthrough.”</p>
       <p>This project allowed me to study how the University of Pittsburgh creates its own visual style guides, and I followed their trends and themes to create my own. I created three visual asset examples to showcase how the “Breakthrough” theme should look and feel. I also curated specific overlays and inclusions that fit my theme to serve as assets.</p>
-      <p>This project used Adobe InDesign as its main design application.</p>
 
       <div class="gallery">
         <input type="radio" name="gallery-3" id="g3-1" checked aria-label="Image 1">
@@ -346,13 +391,17 @@
 
   <!-- CLASS 4 -->
   <div class="modal" id="class-4">
-    <a class="backdrop" href="#classwork" aria-label="Close"></a>
+    <a class="backdrop" href="#ux" aria-label="Close"></a>
     <article class="modal-box">
-      <a class="close" href="#classwork" aria-label="Close">&times;</a>
+      <a class="close" href="#ux" aria-label="Close">&times;</a>
       <h3>AFV Travel Agency Website</h3>
+      <dl class="meta">
+        <dt>Course</dt><dd>Database Management Concepts and Applications</dd>
+        <dt>Role</dt><dd>Database manager (group project)</dd>
+        <dt>Tools</dt><dd>MySQL, Python</dd>
+      </dl>
       <p>This final group project was conducted for my Database Management Concepts and Applications class at the University of Pittsburgh. We were tasked with creating an online travel agency website from scratch. In this project I took on the role of database manager.</p>
       <p>I created, populated, and implemented the database into our travel agency website. While my other group members focused on designing the website, I also assisted with completing our final report and documentation.</p>
-      <p>This project used MySQL and Python.</p>
 
       <div class="gallery">
         <input type="radio" name="gallery-4" id="g4-1" checked aria-label="Image 1">
@@ -397,13 +446,17 @@
 
   <!-- CLASS 5 -->
   <div class="modal" id="class-5">
-    <a class="backdrop" href="#classwork" aria-label="Close"></a>
+    <a class="backdrop" href="#ux" aria-label="Close"></a>
     <article class="modal-box">
-      <a class="close" href="#classwork" aria-label="Close">&times;</a>
+      <a class="close" href="#ux" aria-label="Close">&times;</a>
       <h3>Pitt Plugged: A Campus-Based Music App</h3>
+      <dl class="meta">
+        <dt>Course</dt><dd>Human Centered Systems</dd>
+        <dt>Role</dt><dd>Project manager and visual design support (group project)</dd>
+        <dt>Tools</dt><dd>Figma</dd>
+      </dl>
       <p>This final group project was conducted for my Human Centered Systems class at the University of Pittsburgh. We were tasked with creating an app of our choosing, and we decided to create a campus-based music sharing app.</p>
       <p>For this project I took on the role of project manager. I outlined the times we would meet for discussions, created our presentation slides, and assisted with the visual design of the app. I also conducted various interviews and user tests and ran simulations to weed out any bugs.</p>
-      <p>This project used Figma as its main design application.</p>
 
       <div class="gallery">
         <input type="radio" name="gallery-5" id="g5-1" checked aria-label="Image 1">
@@ -439,13 +492,17 @@
 
   <!-- CLASS 6 -->
   <div class="modal" id="class-6">
-    <a class="backdrop" href="#classwork" aria-label="Close"></a>
+    <a class="backdrop" href="#brand" aria-label="Close"></a>
     <article class="modal-box">
-      <a class="close" href="#classwork" aria-label="Close">&times;</a>
+      <a class="close" href="#brand" aria-label="Close">&times;</a>
       <h3>The Oakland Underground Battle of the Bands</h3>
+      <dl class="meta">
+        <dt>Course</dt><dd>Digital Branding and Design</dd>
+        <dt>Role</dt><dd>Designer</dd>
+        <dt>Tools</dt><dd>Photoshop</dd>
+      </dl>
       <p>For my first project in my Digital Branding and Design class at the University of Pittsburgh this semester, I was tasked with creating a poster and social media post design for a fake campus event.</p>
       <p>This process involved making a creative brief for my client, designing the poster and social media post with peer feedback, and creating and presenting a pitch presentation.</p>
-      <p>This project used Adobe Photoshop as its main design application.</p>
       <img src="PittPunkPoster.png" alt="Battle of the Bands poster">
       <img src="PittPunkPost.png" alt="Battle of the Bands social media post">
     </article>
@@ -453,15 +510,19 @@
 
   <!-- CLASS 7 -->
   <div class="modal" id="class-7">
-    <a class="backdrop" href="#classwork" aria-label="Close"></a>
+    <a class="backdrop" href="#brand" aria-label="Close"></a>
     <article class="modal-box">
-      <a class="close" href="#classwork" aria-label="Close">&times;</a>
+      <a class="close" href="#brand" aria-label="Close">&times;</a>
       <h3>Capstone Project: Mr. Pickleball</h3>
+      <dl class="meta">
+        <dt>Course</dt><dd>Senior capstone, in progress</dd>
+        <dt>Role</dt><dd>Designer</dd>
+        <dt>Tools</dt><dd>Illustrator, Photoshop, InDesign</dd>
+      </dl>
       <p>For my ongoing senior capstone project, I have decided to create a fake pickleball brand. I am creating the entire brand from scratch to cover any topics in graphic design that my previous classes may not have taught.</p>
       <p>This project began with making a creative brief to outline what my brand, Mr. Pickleball, would be. Next I began designing the brand identity through colors, themes, and logo creation, finishing with a brand style guide. After establishing the branding, I moved on to packaging design.</p>
       <p>Future work with Mr. Pickleball will include social media, advertising, creating brand items for a fake tabling event, website design, and a final pitch presentation.</p>
       <p>Featured here is my current work toward the project.</p>
-      <p>This project is using Adobe Illustrator, Photoshop, and InDesign as its main design applications.</p>
 
       <div class="gallery">
         <input type="radio" name="gallery-7" id="g7-1" checked aria-label="Image 1">
